@@ -21,3 +21,11 @@ We welcome contributions to the app. To contribute, submit a pull request with p
 
 ## License:
 This app is open-source software distributed under the MIT license. For more information, refer to the LICENSE file included with the app.
+
+## Demo:
+![demo](Page1.png/)
+![demo](Page2.png/)
+![demo](Page3.png/)
+![demo](Page4.png/)
+![demo](Page5.png/)
+![demo](Page6.png/)
