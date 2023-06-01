@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/selectCheese"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".presentation.SelectCheeseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/ChooseCheeseHeader"
+            android:text="CHOOSE YOUR CHEESE"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_button_001"
+            >
+
+            <CheckBox
+                android:id="@+id/parmesanCheck"
+                android:text="Parmesan"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/fetaCheck"
+                android:text="Feta"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/mozzarellaCheck"
+                android:text="Mozzarella"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/cheddarCheck"
+                android:text="Cheddar"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cheeseNext"
+            android:text="Next"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/bg_button_002"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

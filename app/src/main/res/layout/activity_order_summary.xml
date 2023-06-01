@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentation.OrderSummaryActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/summaryHeader"
+                    android:text="@string/your_order_label"
+                    android:textSize="40dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#FF9800"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:text="@string/items"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="40sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#a9a9a9"
+                    />
+
+                <TextView
+                    android:id="@+id/orderDisplay"
+                    android:text="orderDisplay"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    />
+
+                <TextView
+                    android:id="@+id/orderTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:gravity="right"
+                    android:text="Order Total:"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="100dp">
+
+                        <Button
+                            android:id="@+id/cancelOrder"
+                            android:text="Cancel Order"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp"
+                            android:background="@drawable/bg_button_002"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="30dp"
+                            />
+
+                        <Button
+                            android:id="@+id/placeOrder"
+                            android:text='@string/place_order'
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp"
+                            android:background="@drawable/bg_button_002"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="30dp"
+                            />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".presentation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/main_order"
+            android:text="Order"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:background="@drawable/bg_button_002"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/main_history"
+            android:text="History"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:background="@drawable/bg_button_002"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/main_specials"
+            android:text="SPECIALS"
+            android:textSize="30dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_button_002"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>
