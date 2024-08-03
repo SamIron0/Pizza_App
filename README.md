@@ -1,3 +1,5 @@
+COMP 3350 (Software Engineering Final Project)
+
 ## Overview:
 This Android app allows users to order pizza from a selection of items and uses an MVC architecture. The app has been tested on emulator on Windows, Nexus 7 running Android 6.0, with API 23 and has passed unit, integration and acceptance tests to ensure its functionality.
 
